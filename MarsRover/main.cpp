@@ -18,11 +18,14 @@ int abre_arquivo(){
         return 1;
     }
     while (fgets(linhas[cont], MAXCHAR, fp) != NULL){
-        printf("%s", str);
+        printf("%s", linhas[cont]);
         cont = cont+1;
-    fclose(fp);
     }
-   return 0;
+    fclose(fp);
+
+
+    return 0;
+
 
 }
 
@@ -31,4 +34,4 @@ int main() {
     abre_arquivo();
 
 }
-2-dev-usando-git-github-marcos-joao\MarsRover
+//2-dev-usando-git-github-marcos-joao\MarsRover
