@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #define MAXCHAR 1024
 
 //Função para ler o arquivo .txt
 char linhas[100][MAXCHAR];
+int x;
 
 int abre_arquivo(){
 
@@ -18,14 +20,14 @@ int abre_arquivo(){
         return 1;
     }
     while (fgets(linhas[cont], MAXCHAR, fp) != NULL){
-        printf("%s", linhas[cont]);
         cont = cont+1;
     }
     fclose(fp);
 
+    x = int(linhas[0][0]) - 48;
+    printf("x = %d", x);
 
-    return 0;
-
+return 0;
 
 }
 
