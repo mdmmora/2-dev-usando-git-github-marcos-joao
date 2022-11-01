@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1666379632 source:c:\users\samsung\documents\engdesoftware\2-dev-usando-git-github-marcos-joao\marsrover\movimentacao\main.cpp
+	<iostream>
+	<stdio.h>
+	<cstdio>
+	<string>
+
