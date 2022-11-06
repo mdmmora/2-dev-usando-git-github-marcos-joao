@@ -123,27 +123,6 @@ int main()
        }
        else
        {
-           /*
-
-           printf("Digite a operacao (L, R ou M):\n");
-           scanf(" %c",&op);
-           if(op == L)
-            Left();
-           if(op == R)
-            Right();
-           if(op == M)
-            Move();
-           if(pos[2] == 1)
-            printf("Posicao atual: %d,%d,N\n", pos[0],pos[1]);
-           if(pos[2] == 2)
-            printf("Posicao atual: %d,%d,E\n", pos[0],pos[1]);
-           if(pos[2] == 3)
-            printf("Posicao atual: %d,%d,S\n", pos[0],pos[1]);
-           if(pos[2] == 4)
-            printf("Posicao atual: %d,%d,W\n", pos[0],pos[1]);
-
-            */
-
            if(pos[2] == 1)
             printf("Posicao inicial: %d,%d,N\n", pos[0],pos[1]);
            if(pos[2] == 2)
